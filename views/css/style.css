@@ -1,0 +1,22 @@
+.menu-icon{
+	margin-right:25px;
+}
+
+.logo_pay{
+	width: 80%;
+	margin:0 auto;
+	margin-top:10%;
+	margin-bottom: 10%;
+	display: block;
+}
+
+.logo-li{
+	display:table-cell;
+	vertical-align: middle;
+}
+.logo-in-li{
+	width:70%;
+	margin: 0 auto;
+	display: inline;
+	vertical-align: middle;
+}
