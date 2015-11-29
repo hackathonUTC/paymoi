@@ -3,7 +3,7 @@ var config = require('./config.js');
 var express = require('express');
 var app = express();
 
-var mustache = require('mustache-exprss');
+var mustache = require('mustache-express');
 app.engine('html', mustache());
 app.set('view engine', 'html');
 
@@ -14,7 +14,7 @@ var cors = require('cors');
 app.use(cors());
 app.options("*", cors());
 
-var cas = require('cas-authentication');
+var CASAuthentication = require('cas-authentication');
 var cas = new CASAuthentication({
 	cas_url         : 'https://cas.utc.fr/cas',
 	service_url     : 'https://',
