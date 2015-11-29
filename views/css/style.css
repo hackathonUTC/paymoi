@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
 .menu-icon{
 	margin-right:25px;
 }
@@ -11,12 +13,31 @@
 }
 
 .logo-li{
-	display:table-cell;
+	display: table-cell;
 	vertical-align: middle;
 }
+
 .logo-in-li{
 	width:70%;
 	margin: 0 auto;
 	display: inline;
 	vertical-align: middle;
+}
+
+.menu-text{
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 1.3rem !important;
+}
+
+main{
+	margin: 0 auto;
+	width:100%;
+	padding-left:240px;
+}
+
+.container{
+	margin: 0;
+	height:100%;
+	width:100%;
 }
